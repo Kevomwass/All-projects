@@ -1,0 +1,114 @@
+body{
+	padding: 0;
+	margin: 0;
+	background-color: rgba(24, 20, 20, 0.3);
+}
+.logo{
+	color: lightpink;
+	background-color: rgba(25, 20, 20, 0.5);
+	height: 30px;
+	width: 140px;
+	text-align: center;
+}
+.menu{
+	text-align: center;
+	margin-left: 100px;
+	margin-top: -60px;
+
+
+}
+.menu ul li{
+	position: relative;
+	display: inline-block;
+	margin: 20px;
+	margin-left: 30px;
+}
+.menu ul li ul{
+	display: none;
+	position: absolute;
+	background-color: rgba(50, 20, 30, 0.3);
+	width: 120px;
+	padding: 10px;
+
+}
+.menu ul li:hover ul{
+	display: block;
+}
+.menu ul li ul li{
+	width: 90px;
+	background-color: transparent;
+
+}
+
+.menu ul li a{
+	text-decoration: none;
+	color: whitesmoke;
+
+}
+
+.menu ul li a:hover{
+	background-color: rgba(50, 20, 30, 0.3);
+	padding: 4px;
+	border-radius: 2px;
+	
+}
+
+.container{
+	background-color: rgba(50, 20, 30, 0.3);
+	padding: 2px;
+}
+.footer{
+	text-align: center;
+	background-color: rgba(50, 20, 30, 0.3);
+	color: white;
+	padding: 3px;
+}
+form{
+	padding: 6px;
+}
+
+
+/*sign up form*/
+
+#container1{
+	float: left;
+	margin-left: 420px;
+	margin-top: 30px;
+    border: 1px solid black;
+    padding: 9px;
+}
+
+#header{
+	
+}
+        /*ANIMATION*/
+
+@-webkit-keyframes kevoo{
+	45%{
+		background-color: grey;
+	}
+	60%{
+		background-color: pink;
+	}
+	50%{
+		background-color: rebeccapurple;
+	}
+	76%{
+		background-color: yellow;
+	}
+	80%{
+		background-color: purple;
+	}
+	50%{
+		background-color: whitesmoke;
+	}
+}
+
+.logo{
+	border: 2px solid black;
+	border-radius: 20px;
+	-webkit-animation: kevoo 2s infinite;
+}
+
+
+
