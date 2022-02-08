@@ -1,0 +1,128 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>sign up page trial</title>
+</head>
+
+<style>
+    body{
+        background-color: rgba(50, 64, 24, 0.2);
+        padding: 0;
+        margin: 0;
+    }
+
+    .container{
+        background-color: rgba(70, 64, 44, 0.1);
+        width: 400px;
+        height:480px;
+        margin-left: 500px;
+        margin-top: 50px;
+        padding: 10px;
+
+    }
+    input{
+        width: auto;
+        margin-left: 129px;
+        display: block;
+        height: 20px;
+        background-color: transparent;
+        border-left: none;
+        border-right: none;
+        border-top: none;
+
+    }
+    label{
+        display: block;
+        text-align: center;
+
+    }
+    .navbar{
+        background-color: darkgray;
+        border-bottom-right-radius: 12px;
+        border-bottom-left-radius: 12px;
+        padding: 3px;
+    }
+
+    h4 {
+        font-style: oblique;
+        color: black;
+    }
+    .clearfix button{
+        color: black;
+        background-color: darkgray;
+        padding: 8px;
+        border-radius: 10px;
+        width: 100px;
+    }
+    .clearfix button:hover{
+        color: silver;
+    }
+    a{
+        text-decoration: none;
+    }
+    h3{
+        font-style: normal;
+        font-size: x-large;
+        font-family: "Agency FB";
+
+    }
+</style>
+
+<body>
+
+<div class="container">
+ <div class="navbar">
+<h3><b>Sign up page</b></h3>
+ </div>
+<h4>please enter your info to sign up</h4>
+
+    <hr>
+
+<form>
+    <div>
+    <label >Username</label>
+    <input type="text" placeholder="Enter your username" name="username" required>
+    </div>
+
+    <div>
+        <label>Email</label>
+        <input type="Email" placeholder="Enter email" name="email" required>
+    </div>
+
+    <div>
+        <label>Password</label>
+        <input type="password" placeholder="Enter your password" name="passsword" required>
+    </div>
+
+    <div>
+        <label>Confirm password</label>
+        <input type="password" placeholder="confirm password" name="confirm password" required>
+    </div>
+     <br>
+
+    <p>By creating an account you agree to our <a href="#"> terms & policy</a></p>
+
+    <div class="clearfix">
+
+        <button type="button" class="signupbtn">
+            Sign up
+        </button>
+
+
+        <button type="button" class="cancelbtn">
+            cancel
+        </button>
+
+
+    </div>
+
+
+</form>
+
+</div>
+</body>
+</html>
